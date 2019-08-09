@@ -1,0 +1,30 @@
+.transactionHistory {
+  width: 870px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #00bcd4;
+  color: #fff;
+  text-transform: uppercase;
+  width: 33%;
+  font-weight: 700;
+}
+
+th,
+td {
+  height: 50px;
+}
+
+td {
+  color: #96a0a7;
+}
+
+.trGray {
+  background-color: #ecf2f3;
+}

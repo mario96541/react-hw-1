@@ -1,0 +1,85 @@
+.pricingItem {
+  width: 450px;
+  height: 700px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.bronzeColor {
+  color: #dd7c4b;
+}
+
+.silverColor {
+  color: #c0c0c0;
+}
+
+.goldColor {
+  color: #dda431;
+}
+
+.capacity {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #b4b4b4;
+}
+
+.description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #b4b4b4;
+}
+
+.price {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #7f8c8d;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: yellow;
+  box-shadow: 0px 0px 10px 0px rgba(6, 245, 6, 0.75);
+  color: green;
+}
+
+.bronze {
+  background-color: #dd7c4b;
+}
+
+.silver {
+  background-color: #c0c0c0;
+}
+
+.gold {
+  background-color: #dda431;
+}
